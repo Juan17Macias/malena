@@ -1,0 +1,1 @@
+los productos cuando esten en ofertas y la oferta se vensa no aparecera en disponibles.

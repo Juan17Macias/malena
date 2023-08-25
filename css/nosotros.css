@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding-top: 120px; /*Para iniciar el div de productos despues de nav juto com pa propiedad container mt-3*/
+}
+
+
+/*Fuentes
+
+    font-family: 'Arima Madurai', cursive;
+font-family: 'Cambay', sans-serif;
+font-family: 'IM Fell Double Pica SC', serif;
+font-family: 'IM Fell Great Primer', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Mea Culpa', cursive;
+  */
+.mision, .vision {
+  transition: transform 0.3s ease-in-out, border 0.3s ease-in-out; /* Transición suave de 0.3 segundos con aceleración y desaceleración */
+}
+
+.quienes:hover{
+  color: rgb(11, 11, 11);
+  background-color: rgba(193, 205, 205, 0.42);
+
+
+}
+.mision:hover, .vision:hover{
+  color: rgb(11, 11, 11);
+  transform: scale(1.02); /* Aumenta el tamaño del contenedor en un 10% */
+  background-color: rgba(193, 205, 205, 0.42);
+}
+.quienes{
+  padding: 15px;
+  margin-top: 30px;
+}
+.mision, .vision{
+  padding: 20px;
+  margin:0px  0px 50px 0px ;
+}
+
+.quienes p, .mision p, .vision p{
+  text-align: justify;
+}
+.quienes h2, .mision h3, .vision h3{
+  text-align: center;
+}
+
+
+
+/*seccion contacto */
+.contacto-f{
+  margin-bottom: 30px;
+}
+/*contacto*/
+.contacto-f h2, p{
+text-align: center;
+}
+.form-c{
+  background-color: rgb(223, 232, 236);
+  border-radius: 3%;
+}
+.form-c:hover{
+  box-shadow: 5px 5px 5px 5px rgba(222, 138, 112, 0.496);
+}
+.enviar-f{
+ margin-left: 50%;
+ width: 100px;
+ height: 50px;
+}
+/*Mapa*/
+
+.mapa{
+  display: flex;
+  justify-content: center;
+}
+
+

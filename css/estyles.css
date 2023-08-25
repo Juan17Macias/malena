@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+/*Fuentes
+
+    font-family: 'Arima Madurai', cursive;
+font-family: 'Inter', sans-serif;
+  */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0%;
+}
+.navbar {
+  background-color: rgb(1, 1, 1);
+}
+
+.logo-empresa img {
+  max-width: 55%;
+}
+.navbar-nav li a{
+  font-family: 'Ysabeau SC', sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: rgb(200, 198, 198);
+  font-weight: bold;
+}
+.navbar-nav li a:hover {
+ border-bottom: solid 2px rgb(255, 255, 255);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+
+
+/* Estilos Boton WhatsApp*/
+
+
+
+
+/* ESTILOS DEL FOOTER*/
+
+.footer-makarlu {
+  color: rgb(251, 251, 251);
+  text-align: center;
+}
+
+.footer-makarlu a {
+  text-decoration: none;
+  color: rgb(251, 251, 251);
+  font-size: 15px;
+}
+.iconos i {
+  font-size: 30px;
+}
+.iconos i:hover {
+  color: rgb(251, 251, 251);
+  box-shadow: 0 8px 8px -4px rgb(25, 80, 197);
+}
